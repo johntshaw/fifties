@@ -1,3 +1,16 @@
+<?php
+include_once 'includes/db_connect.php';
+include_once 'includes/functions.php';
+ 
+sec_session_start();
+ 
+if (login_check($mysqli) == true) {
+    $logged = 'in';
+} else {
+    $logged = 'out';
+}
+#echo htmlspecialchars($_SERVER["PHP_SELF"]);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,45 +27,12 @@
 </head>
 <body>
 
+<?php if (login_check($mysqli) == true) : ?>
+
 <!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index2.php">Home</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="schedule.php">Make Picks</a></li>
-		<li class="dropdown">
-                <a href="manage.php" data-toggle="dropdown" class="dropdown-toggle">Manage<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-					<li><a href="createleague.php">Create a League</a></li>
-					<li><a href="joinleague.php">Join a League</a></li>
-                    <li><a href="manageleague.php">Manage a League</a></li>
-                </ul>
-        </li>
-		<li class="dropdown">
-                <a href="account.php" data-toggle="dropdown" class="dropdown-toggle">Account<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-					<li><a href="#">Welcome, John</a></li>
-					<li><a href="manage.php">League Name Here</a></li>
-					<li class="divider"></li>
-                    <li><a href="history.php">View History</a></li>
-                    <li><a href="pending.php">Pending Picks</a></li>
-                    <li><a href="switchleagues.php">View Another League</a></li>
-                    <li class="divider"></li>
-                    <li><a href="signout.php">Sign Out</a></li>
-                </ul>
-            </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php
+include_once 'navbar.php';
+?>
 
 <!-- First Container -->
 <div class="container-fluid-sm bg-1 text-center">
@@ -72,25 +52,84 @@
 		}
 		};
 	</script>
-<input type="date" />
-  <a href="#" class="btn btn-default btn-lg">
+	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" >
+		<input type="date" name="date" value="<?php 
+		
+		
+		if (isset($_POST["date"]) && !empty($_POST["submit"])){
+			echo $_POST["date"];
+		}else{
+			echo date('Y-m-d');
+		}
+		
+		
+		#echo date('Y-m-d'); 
+		
+		
+		?>" />
+		<input type="submit" name="submit" value="Submit">
+	</form>
+  <!--<a href="#" class="btn btn-default btn-lg">
     <span class="glyphicon glyphicon-search"></span> Go
-  </a>
+  </a>-->
 
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
-  <h3 class="margin">March 22, 2017</h3>
-  <p>Choose a game to make a pick</p>
+  <h3 class="margin"><?php if (isset($_POST["date"]) && !empty($_POST["submit"])){
+		$dateecho=$_POST["date"];
+		echo $dateecho;
+	}else{
+		$dateecho=date("Y-m-d");
+		echo $dateecho;
+	}
+	?></h3>
+  <!--<p>Choose a game to make a pick</p>
   <table align = 'center'>
 	  <tr><th>Time</th><th>Game</th><th>Spread</th></tr>
-	  <tr><td>7:05 ET</td><td><a href= "detail.php">Team 1 vs Team 2</a></td><td>Team 1 -3</td></tr>
-	  <tr><td>7:05 ET</td><td><a href= "detail.php">Team 3 vs Team 4</a></td><td>Team 4 -3</td></tr>
-	  <tr><td>7:05 ET</td><td><a href= "detail.php">Team 5 vs Team 6</a></td><td>Team 5 -3</td></tr>
-	  <tr><td>7:05 ET</td><td><a href= "detail.php">Team 7 vs Team 8</a></td><td>Team 7 -3</td></tr>
-	  <tr><td>7:05 ET</td><td><a href= "detail.php">Team 9 vs Team 10</a></td><td>Team 10 -3</td></tr>
-  </table>
+	  <tr><td>7:09 PM ET</td><td><a href= "detail.php">Butler vs North Carolina</a></td><td>UNC -7</td></tr>
+	  <tr><td>7:29 PM ET</td><td><a href= "detail.php">South Carolina vs Baylor</a></td><td>BAY -3</td></tr>
+	  <tr><td>9:39 PM ET</td><td><a href= "detail.php">UCLA vs Kentucky</a></td><td>UCLA -1.5</td></tr>
+	  <tr><td>9:59 PM ET</td><td><a href= "detail.php">Wisconsin vs Florida</a></td><td>EVEN</td></tr>
+	  <tr><td>7:00 PM ET</td><td><a href= "detail.php">Nets vs Wizards</a></td><td>WSH -10</td></tr>
+  </table>-->
+
+
+  
+  
+<?php 
+
+if (isset($_POST["date"]) && !empty($_POST["submit"])){
+		$date=$_POST["date"];
+	}else{
+		$date=date("Y-m-d");
+	}
+
+$sql="SELECT a.game_id, a.time, a.matchup, a.away_team_spread, a.home_team_spread FROM game a WHERE a.date = '$date'";
+
+$result = mysqli_query($mysqli,$sql);
+?><table align="center"><tr><th>Time</th><th>Game</th><th>Spread</th><th></th></tr><?php
+while($row = mysqli_fetch_array($result, MYSQL_ASSOC)) {
+
+    // If you want to display all results from the query at once:
+    #print_r($row);
+	?><tr><td><?php
+    // If you want to display the results one by one
+    echo $row['time'];?></td><td>
+    <?php echo $row['matchup'];?></td><td>
+    <?php echo $row['away_team_spread'] . "/" . $row['home_team_spread'];?></td><td>
+	
+	<form name= "<?php echo $row['game_id']?>" action="detail.php" method="post">
+		<input type="hidden" name="game_id" value="<?php echo $row['game_id']?>">
+		<input type="submit" name="submit" value="Make Pick">
+	</form>
+	
+	</td></tr><?php
+	}
+?>
+</table>
+
 </div>
 
 <!-- Third Container (Grid) -->
@@ -110,6 +149,19 @@
     </div>
   </div>
 </div>
+
+
+        <?php else : 
+			header('Location: ../fifties/notauthorized.php'); ?>
+         <!--   <div class="container-fluid bg-1 text-center">
+			  <h3 class="margin">Oops!</h3>
+			  <h3 class="margin">You are not authorized to access this page</h3>
+			  <p>
+                You are not authorized to access this page.  Please <a href="login.php">login</a>.
+            </p>
+			</div> -->
+        <?php endif; ?>
+		
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">

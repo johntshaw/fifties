@@ -1,0 +1,307 @@
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-01','19:00:00','Suns vs. Trail Blazers','Suns','+3','+150','-110','Trail Blazers','-3','-125','-110','205','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-01','19:00:00','Lakers vs. Clippers','Lakers','+11','+210','-110','Clippers','-11','-240','-110','198','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-01','19:00:00','Hawks vs. Bulls','Hawks','-1','-125','-110','Bulls','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-01','19:00:00','Oregon vs. North Carolina','Oregon','+2','+150','-110','North Carolina','+2','-125','-110','164','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-01','19:00:00','South Carolina vs. Gonzaga','South Carolina','-1','-125','-110','Gonzaga','+1','+175','-110','150','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-02','19:00:00','Celtics vs. Knicks','Celtics','-1','-125','-110','Knicks','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-02','19:00:00','Hornets vs. Thunder','Hornets','+3','+150','-110','Thunder','-3','-125','-110','201','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-02','19:00:00','Grizzlies vs. Lakers','Grizzlies','-2','-125','-110','Lakers','+2','+175','-110','194','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-02','19:00:00','Mavericks vs. Bucks','Mavericks','Push','-110','-110','Bucks','Push','-110','-110','204','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-02','19:00:00','Jazz vs. Spurs','Jazz','-1','-125','-110','Spurs','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-03','19:00:00','Trail Blazers vs. Timberwolves','Trail Blazers','-1','-125','-110','Timberwolves','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-03','19:00:00','Angels vs. Athletics','Angels','-1','-125','-110','Athletics','+1','+175','-110','6','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-03','19:00:00','Braves vs. Mets','Braves','+1','+125','-110','Mets','-1','-115','-110','9','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-03','19:00:00','Marlins vs. Nationals','Marlins','-1','-125','-110','Nationals','+1','+175','-110','12','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-03','19:00:00','Pirates vs. Red Sox','Pirates','+2','+125','-110','Red Sox','-2','-115','-110','8','-110','MLB');
+
+
+
+
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-04','19:00:00','Suns vs. Trail Blazers','Suns','+3','+150','-110','Trail Blazers','-3','-125','-110','205','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-04','19:00:00','Lakers vs. Clippers','Lakers','+11','+210','-110','Clippers','-11','-240','-110','198','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-04','19:00:00','Hawks vs. Bulls','Hawks','-1','-125','-110','Bulls','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-04','19:00:00','Oregon vs. North Carolina','Oregon','+2','+150','-110','North Carolina','+2','-125','-110','164','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-04','19:00:00','South Carolina vs. Gonzaga','South Carolina','-1','-125','-110','Gonzaga','+1','+175','-110','150','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-05','19:00:00','Celtics vs. Knicks','Celtics','-1','-125','-110','Knicks','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-05','19:00:00','Hornets vs. Thunder','Hornets','+3','+150','-110','Thunder','-3','-125','-110','201','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-05','19:00:00','Grizzlies vs. Lakers','Grizzlies','-2','-125','-110','Lakers','+2','+175','-110','194','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-05','19:00:00','Mavericks vs. Bucks','Mavericks','Push','-110','-110','Bucks','Push','-110','-110','204','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-05','19:00:00','Jazz vs. Spurs','Jazz','-1','-125','-110','Spurs','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-06','19:00:00','Trail Blazers vs. Timberwolves','Trail Blazers','-1','-125','-110','Timberwolves','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-06','19:00:00','Angels vs. Athletics','Angels','-1','-125','-110','Athletics','+1','+175','-110','6','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-06','19:00:00','Braves vs. Mets','Braves','+1','+125','-110','Mets','-1','-115','-110','9','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-06','19:00:00','Marlins vs. Nationals','Marlins','-1','-125','-110','Nationals','+1','+175','-110','12','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-06','19:00:00','Pirates vs. Red Sox','Pirates','+2','+125','-110','Red Sox','-2','-115','-110','8','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-07','19:00:00','Suns vs. Trail Blazers','Suns','+3','+150','-110','Trail Blazers','-3','-125','-110','205','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-07','19:00:00','Lakers vs. Clippers','Lakers','+11','+210','-110','Clippers','-11','-240','-110','198','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-07','19:00:00','Hawks vs. Bulls','Hawks','-1','-125','-110','Bulls','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-07','19:00:00','Oregon vs. North Carolina','Oregon','+2','+150','-110','North Carolina','+2','-125','-110','164','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-07','19:00:00','South Carolina vs. Gonzaga','South Carolina','-1','-125','-110','Gonzaga','+1','+175','-110','150','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-08','19:00:00','Celtics vs. Knicks','Celtics','-1','-125','-110','Knicks','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-08','19:00:00','Hornets vs. Thunder','Hornets','+3','+150','-110','Thunder','-3','-125','-110','201','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-08','19:00:00','Grizzlies vs. Lakers','Grizzlies','-2','-125','-110','Lakers','+2','+175','-110','194','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-08','19:00:00','Mavericks vs. Bucks','Mavericks','Push','-110','-110','Bucks','Push','-110','-110','204','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-08','19:00:00','Jazz vs. Spurs','Jazz','-1','-125','-110','Spurs','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-09','19:00:00','Trail Blazers vs. Timberwolves','Trail Blazers','-1','-125','-110','Timberwolves','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-09','19:00:00','Angels vs. Athletics','Angels','-1','-125','-110','Athletics','+1','+175','-110','6','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-09','19:00:00','Braves vs. Mets','Braves','+1','+125','-110','Mets','-1','-115','-110','9','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-09','19:00:00','Marlins vs. Nationals','Marlins','-1','-125','-110','Nationals','+1','+175','-110','12','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-09','19:00:00','Pirates vs. Red Sox','Pirates','+2','+125','-110','Red Sox','-2','-115','-110','8','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-10','19:00:00','Suns vs. Trail Blazers','Suns','+3','+150','-110','Trail Blazers','-3','-125','-110','205','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-10','19:00:00','Lakers vs. Clippers','Lakers','+11','+210','-110','Clippers','-11','-240','-110','198','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-10','19:00:00','Hawks vs. Bulls','Hawks','-1','-125','-110','Bulls','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-10','19:00:00','Oregon vs. North Carolina','Oregon','+2','+150','-110','North Carolina','+2','-125','-110','164','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-10','19:00:00','South Carolina vs. Gonzaga','South Carolina','-1','-125','-110','Gonzaga','+1','+175','-110','150','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-11','19:00:00','Celtics vs. Knicks','Celtics','-1','-125','-110','Knicks','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-11','19:00:00','Hornets vs. Thunder','Hornets','+3','+150','-110','Thunder','-3','-125','-110','201','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-11','19:00:00','Grizzlies vs. Lakers','Grizzlies','-2','-125','-110','Lakers','+2','+175','-110','194','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-11','19:00:00','Mavericks vs. Bucks','Mavericks','Push','-110','-110','Bucks','Push','-110','-110','204','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-11','19:00:00','Jazz vs. Spurs','Jazz','-1','-125','-110','Spurs','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-12','19:00:00','Trail Blazers vs. Timberwolves','Trail Blazers','-1','-125','-110','Timberwolves','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-12','19:00:00','Angels vs. Athletics','Angels','-1','-125','-110','Athletics','+1','+175','-110','6','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-12','19:00:00','Braves vs. Mets','Braves','+1','+125','-110','Mets','-1','-115','-110','9','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-12','19:00:00','Marlins vs. Nationals','Marlins','-1','-125','-110','Nationals','+1','+175','-110','12','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-12','19:00:00','Pirates vs. Red Sox','Pirates','+2','+125','-110','Red Sox','-2','-115','-110','8','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-13','19:00:00','Suns vs. Trail Blazers','Suns','+3','+150','-110','Trail Blazers','-3','-125','-110','205','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-13','19:00:00','Lakers vs. Clippers','Lakers','+11','+210','-110','Clippers','-11','-240','-110','198','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-13','19:00:00','Hawks vs. Bulls','Hawks','-1','-125','-110','Bulls','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-13','19:00:00','Oregon vs. North Carolina','Oregon','+2','+150','-110','North Carolina','+2','-125','-110','164','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-13','19:00:00','South Carolina vs. Gonzaga','South Carolina','-1','-125','-110','Gonzaga','+1','+175','-110','150','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-14','19:00:00','Celtics vs. Knicks','Celtics','-1','-125','-110','Knicks','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-14','19:00:00','Hornets vs. Thunder','Hornets','+3','+150','-110','Thunder','-3','-125','-110','201','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-14','19:00:00','Grizzlies vs. Lakers','Grizzlies','-2','-125','-110','Lakers','+2','+175','-110','194','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-14','19:00:00','Mavericks vs. Bucks','Mavericks','Push','-110','-110','Bucks','Push','-110','-110','204','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-14','19:00:00','Jazz vs. Spurs','Jazz','-1','-125','-110','Spurs','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-14','19:00:00','Trail Blazers vs. Timberwolves','Trail Blazers','-1','-125','-110','Timberwolves','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-15','19:00:00','Angels vs. Athletics','Angels','-1','-125','-110','Athletics','+1','+175','-110','6','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-15','19:00:00','Braves vs. Mets','Braves','+1','+125','-110','Mets','-1','-115','-110','9','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-15','19:00:00','Marlins vs. Nationals','Marlins','-1','-125','-110','Nationals','+1','+175','-110','12','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-15','19:00:00','Pirates vs. Red Sox','Pirates','+2','+125','-110','Red Sox','-2','-115','-110','8','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-16','19:00:00','Celtics vs. Knicks','Celtics','-1','-125','-110','Knicks','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-16','19:00:00','Hornets vs. Thunder','Hornets','+3','+150','-110','Thunder','-3','-125','-110','201','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-16','19:00:00','Grizzlies vs. Lakers','Grizzlies','-2','-125','-110','Lakers','+2','+175','-110','194','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-16','19:00:00','Mavericks vs. Bucks','Mavericks','Push','-110','-110','Bucks','Push','-110','-110','204','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-16','19:00:00','Jazz vs. Spurs','Jazz','-1','-125','-110','Spurs','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-17','19:00:00','Trail Blazers vs. Timberwolves','Trail Blazers','-1','-125','-110','Timberwolves','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-17','19:00:00','Angels vs. Athletics','Angels','-1','-125','-110','Athletics','+1','+175','-110','6','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-17','19:00:00','Braves vs. Mets','Braves','+1','+125','-110','Mets','-1','-115','-110','9','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-17','19:00:00','Marlins vs. Nationals','Marlins','-1','-125','-110','Nationals','+1','+175','-110','12','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-17','19:00:00','Pirates vs. Red Sox','Pirates','+2','+125','-110','Red Sox','-2','-115','-110','8','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-18','19:00:00','Suns vs. Trail Blazers','Suns','+3','+150','-110','Trail Blazers','-3','-125','-110','205','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-18','19:00:00','Lakers vs. Clippers','Lakers','+11','+210','-110','Clippers','-11','-240','-110','198','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-18','19:00:00','Hawks vs. Bulls','Hawks','-1','-125','-110','Bulls','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-18','19:00:00','Oregon vs. North Carolina','Oregon','+2','+150','-110','North Carolina','+2','-125','-110','164','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-18','19:00:00','South Carolina vs. Gonzaga','South Carolina','-1','-125','-110','Gonzaga','+1','+175','-110','150','-110','NCAA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-19','19:00:00','Celtics vs. Knicks','Celtics','-1','-125','-110','Knicks','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-19','19:00:00','Hornets vs. Thunder','Hornets','+3','+150','-110','Thunder','-3','-125','-110','201','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-19','19:00:00','Grizzlies vs. Lakers','Grizzlies','-2','-125','-110','Lakers','+2','+175','-110','194','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-19','19:00:00','Mavericks vs. Bucks','Mavericks','Push','-110','-110','Bucks','Push','-110','-110','204','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-19','19:00:00','Jazz vs. Spurs','Jazz','-1','-125','-110','Spurs','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-19','19:00:00','Trail Blazers vs. Timberwolves','Trail Blazers','-1','-125','-110','Timberwolves','+1','+175','-110','150','-110','NBA');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-20','19:00:00','Angels vs. Athletics','Angels','-1','-125','-110','Athletics','+1','+175','-110','6','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-20','19:00:00','Braves vs. Mets','Braves','+1','+125','-110','Mets','-1','-115','-110','9','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-20','19:00:00','Marlins vs. Nationals','Marlins','-1','-125','-110','Nationals','+1','+175','-110','12','-110','MLB');
+
+INSERT INTO `game`(`date`, `time`, `matchup`, `away_team`, `away_team_spread`, `away_team_line`, `away_team_odds`, `home_team`, `home_team_spread`, `home_team_line`, `home_team_odds`, `over_under`, `over_under_odds`, `league`) 
+VALUES ('2017-04-20','19:00:00','Pirates vs. Red Sox','Pirates','+2','+125','-110','Red Sox','-2','-115','-110','8','-110','MLB');
+
+
+
+

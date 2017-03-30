@@ -21,44 +21,9 @@ include_once 'includes/functions.php';
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index2.php">Home</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="schedule.php">Make Picks</a></li>
-		<li class="dropdown">
-                <a href="manage.php" data-toggle="dropdown" class="dropdown-toggle">Manage<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-					<li><a href="createleague.php">Create a League</a></li>
-					<li><a href="joinleague.php">Join a League</a></li>
-                    <li><a href="manageleague.php">Manage a League</a></li>
-                </ul>
-        </li>
-		<li class="dropdown">
-                <a href="account.php" data-toggle="dropdown" class="dropdown-toggle">Account<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-					<li><a href="#">Welcome, John</a></li>
-					<li><a href="manage.php">League Name Here</a></li>
-					<li class="divider"></li>
-                    <li><a href="history.php">View History</a></li>
-                    <li><a href="pending.php">Pending Picks</a></li>
-                    <li><a href="switchleagues.php">View Another League</a></li>
-                    <li class="divider"></li>
-                    <li><a href="signout.php">Sign Out</a></li>
-                </ul>
-            </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php
+include_once 'navbar.php';
+?>
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
@@ -90,23 +55,29 @@ include_once 'includes/functions.php';
             </li>
             <li>Your password and confirmation must match exactly</li>
         </p></ul>
+		<br />
+		<br />
+		<table align = "center">
         <form method="post" name="registration_form" action="<?php echo esc_url($_SERVER['PHP_SELF']); ?>">
-            Username: <input type='text' name='username' id='username' /><br>
-            Email: <input type="text" name="email" id="email" /><br>
-            Password: <input type="password"
+            <tr><td>Username: </td><td><input type='text' name='username' id='username' /></td></tr>
+            <tr><td>Email: </td><td><input type="text" name="email" id="email" /></td></tr>
+            <tr><td>Password: </td><td><input type="password"
                              name="password" 
-                             id="password"/><br>
-            Confirm password: <input type="password" 
+                             id="password"/></td></tr>
+            <tr><td>Confirm password: </td><td><input type="password" 
                                      name="confirmpwd" 
-                                     id="confirmpwd" /><br>
-            <input type="button" 
+                                     id="confirmpwd" /></td></tr>
+            <tr><td></td><td><input type="button" 
                    value="Register" 
                    onclick="return regformhash(this.form,
                                    this.form.username,
                                    this.form.email,
                                    this.form.password,
-                                   this.form.confirmpwd);" /> 
+                                   this.form.confirmpwd);" /></td></tr>
         </form>
+		</table>
+		<br />
+		<br />
         <p>Return to the <a href="index.php">login page</a>.</p>
     </div>
 	

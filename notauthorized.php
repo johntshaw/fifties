@@ -1,14 +1,6 @@
 <?php
-include_once 'includes/db_connect.php';
+include_once 'includes/register.inc.php';
 include_once 'includes/functions.php';
- 
-sec_session_start();
- 
-if (login_check($mysqli) == true) {
-    $logged = 'in';
-} else {
-    $logged = 'out';
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,6 +14,8 @@ if (login_check($mysqli) == true) {
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="includes/style2.css">
+  <script type="text/JavaScript" src="js/sha512.js"></script> 
+  <script type="text/JavaScript" src="js/forms.js"></script>
   
 </head>
 <body>
@@ -33,7 +27,7 @@ include_once 'navbar.php';
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Manage Leagues</h3>
+  <h3 class="margin">Oops!</h3>
 </div>
 
 <!-- Second Container -->
@@ -42,24 +36,9 @@ include_once 'navbar.php';
 	<div class="col-sm-3">
 	</div>
     <div class="col-sm-6"> 
-      <h3>Your Leagues</h3>
-	      <a href="#" class="btn btn-default btn-lg">
-			<span class="glyphicon glyphicon-edit"></span> League 1
-		  </a>
-		  <a href="#" class="btn btn-default btn-lg">
-			<span class="glyphicon glyphicon-edit"></span> League 2
-		  </a>
-		  <a href="#" class="btn btn-default btn-lg">
-			<span class="glyphicon glyphicon-edit"></span> League 3
-		  </a>
-		  <a href="#" class="btn btn-default btn-lg">
-			<span class="glyphicon glyphicon-edit"></span> League 4
-		  </a>
-		  <a href="#" class="btn btn-default btn-lg">
-			<span class="glyphicon glyphicon-plus"></span> Create New League 
-		  </a>
-	  <br />
+        <p>You must go back to the <a href="index2.php">home page</a> and log in</p>
     </div>
+	
 	<div class="col-sm-3">
 	</div>
   </div>
